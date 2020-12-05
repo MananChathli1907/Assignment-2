@@ -20,7 +20,7 @@ int main()
         A[i]=A[n-i-1];
         A[n-i-1]=temp;
     } 
-    printf("The numbers printed in words are :\n")
+    printf("The numbers printed in words are :\n");
     for(i=0;i<n;i++)
     {
         switch(A[i])
