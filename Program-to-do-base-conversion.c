@@ -146,12 +146,6 @@ int binarytodecimal(int num)
         num=num/10;
     }
     n=i;
-    for(i=0;i<n/2;i++)
-    {
-        temp=A[i];
-        A[i]=A[n-i-1];
-        A[n-i-1]=temp;
-    }
     for(i=0;i<n;i++)
     {
         dec=dec+A[i]*pow(2,i);
